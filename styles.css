@@ -1,0 +1,88 @@
+*{
+    font-family: 'Courier New', monospace;
+    text-align: center;
+}
+
+body{
+    padding-top: 10%;
+    background: lightblue;
+    margin: 0px;
+}
+
+h1{color:#336dbb;}
+
+h2{color:#0cbcef;}
+
+input,button{
+    border: none;
+    border-radius: 16px;
+    height: 30px;
+    width: 300px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+input{
+    margin-bottom:5px;
+    outline: 0;
+}
+
+button{
+    color: white;
+    background: #2192d3;
+    margin-bottom: 3px;
+}
+
+button:hover{
+    background-color: #336dbb;
+    box-shadow: 0px 15px 20px rgba(76, 124, 221, 0.523);
+}
+
+select{
+    border: none;
+    border-radius: 16px;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    outline: 0;
+}
+
+a{text-decoration: none;}
+
+table{
+    margin:auto;
+    text-align: center;
+    border-collapse: collapse;
+    width: auto;
+    color: rgb(123, 112, 112);
+}
+
+td,th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th{
+    background-color: #48a5ff;
+    color: white;
+}
+
+.delete_button{
+    width: 100px;
+}
+
+.checkbox{
+    margin: 0;
+    width: 25px;
+}
+
+tr:nth-child(even){background-color: rgb(147, 206, 226);}
+
+.edit_style{
+    text-align: center;
+}
+
+.return_login{
+    height: 50px;
+    border-radius: 20px;
+    font-size: large;
+}
